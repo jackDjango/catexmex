@@ -1,0 +1,436 @@
+body{
+	 
+	background-image: url('../images/grungbg1.jpg');
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+
+}
+
+
+/*Front Branding Area*/
+
+.front-brand{
+
+	margin:auto;
+}
+
+.front-social {
+margin-bottom:2rem;
+
+.front-soon h2{
+	font-family: 'Oswald', Lato, Helvetica, sans-serif;
+	font-weight:600;
+	color:$primary-color;
+	margin-top:2rem;
+
+}
+}
+.front-soon h4{
+	color:$black !important;
+
+
+}
+
+.front-logo img{
+	
+	@include breakpoint(large){
+	max-width:100%;
+	}
+	@include breakpoint(medium){
+	max-width:50%;
+	}
+	@include breakpoint(small){
+	max-width:100%;
+	}
+
+}
+
+/*Front Text/Blub Area*/
+
+.blurb_row{
+	
+	max-width:75em;
+	/*background-color:rgba(152,198,187,0.20);*/
+	/*@include breakpoint(medium){
+	padding:3em 12em;
+	}
+	@include breakpoint(small){
+	padding:3em .25em;
+	}*/
+
+}
+
+
+.signup_row{
+
+
+	max-width:100em;
+	background-color:rgba(78,77,77,.20);
+	padding:1em;
+	background-image: url('../images/grungbgtrans1.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	 background-attachment: fixed;
+
+}
+
+.blurb_row h4{
+	
+	
+	color: $primary-color;
+	 @include breakpoint(medium){
+	/*text-shadow:-1px 1px 0px rgba(0,0,0,1);*/
+	}
+	 @include breakpoint(small){
+	/*text-shadow: -2px 1px 0px rgba(0,0,0,.25);*/
+	}
+  text-align: center;
+	padding-bottom:2rem;
+}
+.blurb_row h5{
+	text-align: center;
+}
+.e-news h3{
+
+	color:$primary-color;
+	font-family: 'Oswald', Lato, Helvetica, sans-serif;
+	
+
+
+}
+
+/*-- gravity --*/
+body.home .gform_wrapper .top_label .gfield_label{
+	display:inline !important;
+
+}
+body.home .gform_wrapper .gfield_required{
+	display:none !important;
+}
+body.home div.gform_confirmation_message{
+	color: $primary-color !important;
+	text-align: center !important;
+}
+.end-tag h5{
+
+	
+
+}
+
+/*Footer*/
+
+
+.footer h6 {
+
+	color:$primary-color;
+	border-bottom:1px solid $secondary-color;
+	font-size:1.5em;
+	font-family: 'Oswald', Lato, Helvetica, sans-serif;
+
+
+}
+.footer-container{
+background: $black;
+	border:1px solid rgba(0,0,0,0) !important;
+	color:$white;
+	margin-top:0px !important;
+
+}
+
+
+/*Gravity Forms*/
+
+
+.gform_footer{
+
+	margin:auto;
+	text-align:center;
+
+}
+.gform_footer input[type=submit]{
+
+	min-width:33%;
+	font-size:1.25em !important;
+	font-family: 'Oswald', Lato, Helvetica, sans-serif;
+}
+/*-----------MOSAIC----------*/
+
+#mos-head{
+	max-width:100%;
+	margin:0px;
+	background:$black;
+	padding:1em 1em;
+}
+
+#mos-head .menu a{
+
+@include breakpoint(medium){
+	font-size:1.5em;
+	}
+	@include breakpoint(small){
+	font-size:1em;
+	}	
+	font-family: 'Lobster', cursive;
+
+}
+
+#mos-body{
+	max-width:100%;
+	margin:0px;
+	background-color:rgba(96, 26, 18,1);
+	background-image:url('../images/bg-page.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-postion:top center;
+}
+#mos-menu, #mos-map, #mos-catering, #mos-resv{
+
+    max-width: 75rem;
+    margin-right: auto;
+    margin-left: auto;
+	padding:1em 2em;
+	color:$white;
+	font-family: 'Lato', sans-serif;
+}
+
+#mos-about{
+
+    max-width: 100rem;
+    margin-right: auto;
+    margin-left: auto;
+	padding:1em 2em;
+	color:$white;
+	font-family: 'Lato', sans-serif;
+	background-color:rgb(28, 11, 1);
+	@include breakpoint(large){
+	background-image:url('../images/Cyclone-Portrait.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+	}
+}
+#mos-menu .button{
+
+	width:75%;
+	border-radius:3px;
+
+
+}
+
+#mos-body h2{
+	
+    font-family: 'Oswald', Lato, Helvetica, san-serif;
+	font-weight:300;
+	text-transform:uppercase;
+	color:#e35a24;
+	
+	}
+	
+.mos-hr{
+
+
+	margin:0px auto 1em auto;
+	max-width:75%;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+
+}	
+
+#mos-map h4{
+
+	font-family: 'Oswald', Lato, Helvetica, san-serif;
+	font-weight:300;
+	color: #ff9900;
+
+}
+
+#mos-map table{
+
+
+	font-weight:bold;
+
+}
+
+/*----------------------RESERVATIONS Remove after full----------------------------------------*/
+
+
+#OT_searchWrapper .imgCal {
+    position: absolute;
+    display: none;
+    z-index: 100;
+}
+
+#OT_searchWrapper #imageCal table {
+    font-size: 12px;
+    width: 300px;
+	@include breakpoint(small only){
+		
+		width:200px;
+	
+	}
+    font-family: arial;
+    font-weight: bold;
+    background: #FFF;
+    margin-bottom: 0 !important;
+}
+#OT_searchWrapper #imageCal td {
+    padding: 0;
+    text-align: center
+}
+#OT_searchWrapper .clickableDays {
+    color: #000;
+    text-decoration: none;
+    height: 18px
+}
+#OT_searchWrapper .nonclickableDays {
+    color: #ccc;
+    height: 18px
+}
+#OT_searchWrapper .months {
+    color: #000;
+    text-decoration: none
+}
+#OT_searchWrapper img.partOfCal {
+    margin: 0;
+
+
+}
+#OT_searchWrapper table.monthRow {
+    margin: 0
+}
+#OT_searchWrapper .weekdays {
+    color: #000;
+    text-decoration: none;
+    color: #666;
+    background-color: #efefef;
+    width: 14%
+}
+.partOfCal img.partOfCal.spacer {
+    display: block;
+    height: 1px;
+    margin: 0;
+    padding: 0
+}
+#OT_logo{
+	display:none;
+
+}
+#OT_searchWrapperAll{
+
+	@include breakpoint(medium){
+	
+		max-width:75%;
+		margin:auto;
+	
+	}
+}
+#OT_searchWrapper h2{
+
+
+	font-size:1em;
+
+
+}
+
+
+/*----------------------Open Table----------------------------------------*/
+
+.ot-powered-by{display:none;}
+
+.ot-title{display:none;}
+
+.ot-dtp-picker{
+
+
+	min-width:100%;
+	background-color:rgba(0,0,0,0)!important;
+	border:1px solid #2d8989;
+
+
+}
+
+.ot-button{background-color: #2d8989 !important; box-shadow: 0 0 0 1px #2d8989 !important;}
+
+.ot-button:hover{background-color: scale-color(#2d8989, $lightness: 14%) !important;}
+
+.ot-dtp-picker-selector {
+
+	background-color:rgba(0,0,0,0)!important;
+	color:#2d8989 !important;
+	height:3.5rem !important;
+	
+}
+.ot-dtp-picker-form{	
+
+
+	background-color:rgba(0,0,0,0)!important;
+
+
+}
+.ot-dtp-picker-selector-link {
+
+	border:1px solid #2d8989;
+	color:#2d8989 !important;
+
+}
+.picker--focused .picker__day--highlighted, .picker__day--highlighted:hover {
+
+
+}
+
+/*-------FULL---------*/
+#home_features{
+
+	padding-top:2em;
+	background-color:#222222;
+	background-image:url('http://localhost/catexmex/wp-content/uploads/grunge-brush-2.jpg');
+	background-position:top left;
+	background-repeat:repeat;
+	background-size:85%;
+	background-blend-mode: multiply;
+	background-attachment:fixed;
+	color:$white;
+	
+}
+
+#home_features h3{
+
+	font-family:'Patua One';
+	text-transform:uppercase;
+	color:$white;
+	text-shadow:1px 2px $black;
+
+}
+h3 {font-family:'Patua One';}
+
+
+#catx-story h3{
+
+	font-family:'Patua One';
+	color:$black;
+	font-size:2.5em;
+	line-height:1em;
+	text-shadow:-2px 2px 0px $primary-color ;
+	
+
+}
+.catx-home-btn{
+
+	font-family:'Oswald';
+	
+}
+#promo_row .button{
+
+	margin:.4em 0 .1em 0;
+	border:1px outset #2d8989;
+	
+
+}
+
+#promo_row {
+
+	background-color:rgba(255,255,255,.75);
+	border-top:3px double $secondary-color;
+	border-bottom:3px double $secondary-color;
+
+}
