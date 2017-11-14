@@ -57,7 +57,7 @@
 	<div class="row text-center">
 	
 	<div class="large-6 small-6 columns">
-	<div class="row">
+	<div class="row" style="display:none;">
 	<div class="large-6 small-6 columns">
 	<a href="" class="button tiny expanded">Gift Cards</a>
 	</div>

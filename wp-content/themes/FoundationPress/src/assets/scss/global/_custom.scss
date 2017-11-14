@@ -374,12 +374,12 @@ background: $black;
 
 }
 
-/*-------FULL---------*/
+/*-------FULL SITE CHANGES---------*/
 #home_features{
 
 	padding-top:2em;
 	background-color:#222222;
-	background-image:url('http://localhost/catexmex/wp-content/uploads/grunge-brush-2.jpg');
+	background-image:url('../wp-content/uploads/grunge-brush-2.jpg');
 	background-position:top left;
 	background-repeat:repeat;
 	background-size:85%;
@@ -397,8 +397,6 @@ background: $black;
 	text-shadow:1px 2px $black;
 
 }
-h3 {font-family:'Patua One';}
-
 
 #catx-story h3{
 
@@ -406,7 +404,6 @@ h3 {font-family:'Patua One';}
 	color:$black;
 	font-size:2.5em;
 	line-height:1em;
-	text-shadow:-2px 2px 0px $primary-color ;
 	
 
 }
@@ -428,5 +425,20 @@ h3 {font-family:'Patua One';}
 	background-color:rgba(255,255,255,.75);
 	border-top:3px double $secondary-color;
 	border-bottom:3px double $secondary-color;
+
+}
+
+.dropdown.menu .is-active > a {
+
+
+	background:rgba(0,0,0,0) !important;
+	color:$primary-color !important;
+
+
+}
+
+h1{
+
+	text-transform:uppercase;
 
 }
